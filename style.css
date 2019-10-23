@@ -1,0 +1,125 @@
+body {
+  background-color: #f5f5f5;
+  color: #424242;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  color: #424242;
+}
+
+a:hover {
+  color: #d81b60;
+  transition: color 250ms ease-in-out;
+}
+
+h1 {
+  font-size: 36px;
+  color: #d81b60;
+  font-family: 'Barlow', sans-serif;
+  line-height: 10px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #d81b60;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px;
+}
+
+#profile_picture {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.btn {
+  background-color: #616161;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-container {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #d81b60;
+  color: white;
+  transition: color 250ms ease-in-out;
+}
+
+.logo {
+  color: #616161;
+  transition: color 250ms ease-in-out;
+}
+
+.logo:hover {
+  color: #d81b60;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px 0px 30px 0px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#footer {
+  background-color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
